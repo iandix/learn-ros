@@ -35,7 +35,7 @@ Install nvidia-docker (to get HW acceleration https://github.com/NVIDIA/nvidia-d
 _Note: We'll use here the nvidia-docker 1.0 legacy version since the new nvidia-docker2 still lacks support to OpenGL_  
 
 
-## Step 3: Building the 'learn-ai' Docker Image
+## Step 3: Building the 'learn-ros' Docker Image
 
 If you want to skip the small talk and get straigh down to business just run on your terminal:
 
