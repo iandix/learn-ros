@@ -12,7 +12,7 @@ In the next few lines I'll explain step-by-step how you can deploy a container p
 
 * Base OS: Ubuntu 16.04 
 * ROS Version: Kinetic
-* IDE: VSCode with python extension
+* IDE: VSCode with python extension (**NOT WORKING YET: GTK & DBUS EXCEPTIONS CAUSING CONTAINER TO CRASH!!**)
 
 
 ## Step 1: Install Docker
@@ -93,3 +93,4 @@ $ git pull
 # To start working with VSCode
 $ code --user-data-dir="/root/.vscode"  # To run VSCode as root we need to identify the user data dir 
 ```
+(**VSCODE NOT WORKING YET: GTK & DBUS EXCEPTIONS CAUSING CONTAINER TO CRASH!!**)
