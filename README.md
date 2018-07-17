@@ -12,7 +12,6 @@ In the next few lines I'll explain step-by-step how you can deploy a container p
 
 * Base OS: Ubuntu 16.04 
 * ROS Version: Kinetic
-* IDE: VSCode with python extension
 
 
 ## Step 1: Install Docker
@@ -69,7 +68,7 @@ $ chmod +x ./launch.sh
 $ ./launch.sh
 ``` 
 
-As mentioned in step 4, during launch time we mount the previously created docker volume named 'learn-ai' onto a folder named 'dev'. Now, after starting the container, once in bash, we'll clone the git repo:
+As mentioned in step 4, during launch time we mount the previously created docker volume named 'learn-ros' onto a folder named 'dev'. Now, after starting the container, once in bash, we'll clone the git repo:
 
 ```bash
 $ cd /home/$USER/dev  # $USER is your user folder
@@ -88,8 +87,4 @@ While inside the container:
 ```bash
 # To update our code-base (saved in our ext volume)
 $ git pull
-```
-```bash
-# To start working with VSCode
-$ code --user-data-dir="/root/.vscode"  # To run VSCode as root we need to identify the user data dir 
 ```
